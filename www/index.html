@@ -1,0 +1,89 @@
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>Ionic Template</title>
+
+    <link href="http://code.ionicframework.com/1.0.0-beta.1/css/ionic.css" rel="stylesheet">
+    <script src="http://code.ionicframework.com/1.0.0-beta.1/js/ionic.bundle.js"></script>
+  </head>
+  <body>
+
+    <ion-nav-bar class="bar-positive nav-title-slide-ios7" align-title="center">
+      <ion-nav-back-button class="button-icon ion-arrow-left-c">
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-view class="slide-left-right"></ion-nav-view>
+
+    <script id="Autors.html" type="text/ng-template">
+      <!-- The title of the ion-view will be shown on the navbar -->
+      <ion-view title="Autors" hide-back-button="true">
+        <ion-content class="padding">
+          <!-- The content of the page -->
+          <a class="button" ui-sref="VictorHugo">Victor Hugo</a>
+          <a class="button" ui-sref="ThomasJefferson">Thomas Jefferson</a>
+          <a class="button" ui-sref="NapoleonBonaparte">Napoleon Bonaparte</a>
+        </ion-content>
+      </ion-view>
+    </script>
+
+    <script id="VictorHugo.html" type="text/ng-template">
+      <!-- The title of the ion-view will be shown on the navbar -->
+      <ion-view title="Victor Hugo">
+        <ion-nav-buttons side="left">
+          <button class="button">
+            LeftButton!
+          </button>
+        </ion-nav-buttons>
+        <ion-content class="padding">
+          <!-- The content of the page -->
+          <p>Music expresses that which cannot be said and on which it is impossible to be silent.</p>
+          <p>When a woman is talking to you, listen to what she says with her eyes.</p>
+          <p>Life is the flower for which love is the honey.</p>
+          <p>Change your opinions, keep to your principles; change your leaves, keep intact your roots.</p>
+          <a class="button" ui-sref="Autors">home</a>
+        </ion-content>
+      </ion-view>
+    </script>
+
+    <script id="ThomasJefferson.html" type="text/ng-template">
+      <!-- The title of the ion-view will be shown on the navbar -->
+      <ion-view title="Thomas Jefferson">
+        <ion-nav-buttons side="left">
+          <button class="button">
+            LeftButton!
+          </button>
+        </ion-nav-buttons>
+        <ion-content class="padding">
+          <!-- The content of the page -->
+          <p>Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude.</p>
+          <p>Do you want to know who you are? Don t ask. Act! Action will delineate and define you.</p>
+          <p>Honesty is the first chapter in the book of wisdom.</p>
+          <p>In matters of style, swim with the current; in matters of principle, stand like a rock.</p>
+          <a class="button" ui-sref="Autors">home</a>
+        </ion-content>
+      </ion-view>
+    </script>
+
+    <script id="NapoleonBonaparte.html" type="text/ng-template">
+      <!-- The title of the ion-view will be shown on the navbar -->
+      <ion-view title="Napoleon Bonaparte">
+        <ion-nav-buttons side="left">
+          <button class="button">
+            LeftButton!
+          </button>
+        </ion-nav-buttons>
+        <ion-content class="padding">
+          <!-- The content of the page -->
+          <p>Great ambition is the passion of a great character. Those endowed with it may perform very good or very bad acts. All depends on the principles which direct them.</p>
+          <p>Death is nothing, but to live defeated and inglorious is to die daily.</p>
+          <p>One should never forbid what one lacks the power to prevent.</p>
+          <p>Religion is what keeps the poor from murdering the rich.</p>
+          <a class="button" ui-sref="Autors">home</a>
+        </ion-content>
+      </ion-view>
+    </script>
+  </body>
+</html>
